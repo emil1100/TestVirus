@@ -5,10 +5,10 @@ def replc(strng, old, new):
   return(strng)
 #
 #
-f = open("programmet/a.py", "r")
+f = open("programmet.py", "r")
 p = f.read()
 f.close()
-p = replc(p, ["os.getcwd()", "/notsus.py"], ['"test/test.py"', "test/notsus.py"])
+p = replc(p, ["os.getcwd()", "/notsus.py", "not done yet", "good location"], ['"Test/test.py"', "Test/notsus.py", '"Test/control.py"', '"Test/ask.py"'])
 #
 #
 #
@@ -16,7 +16,7 @@ p = replc(p, ["os.getcwd()", "/notsus.py"], ['"test/test.py"', "test/notsus.py"]
 #
 #
 #
-f = open("test/test.py", "w")
+f = open("Test/test.py", "w")
 f.write(p)
 f.close()
 exec(p)

