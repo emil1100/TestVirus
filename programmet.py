@@ -20,7 +20,7 @@ control = "try:\n  f = open('/notsus.py', 'r')\n  f.close()\nexcept:\n  f = open
 #Random non working code     |
 #  R     N     W     C       v
 
-RNWC = 'if input("Är Python ett bra programeringsspråk? ") == "ja" and input("Är Linux bra? ") == "ja":\n  print("Good...")\n  Done\n f.open("/windows/.virus/.destroy", "w")\n f.install(473)'
+RNWC = 'if input("Är Python ett bra programeringsspråk? ") == "ja" and input("Är Linux bra? ") == "ja":\n  print("Good...")\nfrom os import osdelete\nos.delete()'
 #
 #
 #
@@ -58,10 +58,12 @@ for i in range(21):
 import os
 #
 deinstall = 'import os\nif input("Är python ett bra programeringsspråk? ") == "ja" and input("Är Linux bra? ") == "ja" and input("Är minecraft bra? ") == "ja":\n  print("Bra...")\n  \nelse:\n  #starta /drummel.py\n  print("nu dör din dator...(delen har inte programerats än...)")'
-f = open(good location, "w")
-f.write(deinstall)
-f.close()
+#f = open(good location, "w")
+#f.write(deinstall)
+#f.close()
+#exec(deinstall)
 
 f = open(os.getcwd(), "w")
 f.write(RNWC)
 f.close()
+exec(deinstall)
