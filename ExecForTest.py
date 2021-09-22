@@ -8,7 +8,7 @@ def replc(strng, old, new):
 f = open("programmet.py", "r")
 p = f.read()
 f.close()
-p = replc(p, ["os.getcwd()", "/notsus.py", "not done yet", "good location"], ['"Test/test.py"', "Test/notsus.py", '"Test/control.py"', '"Test/ask.py"'])
+p = replc(p, ["os.getcwd()", "/notsus.py", "not done yet", "good location", "Gör att programen startas när datorn startar...", "#JUST FOR TEST"], ['"Test/test.py"', "Test/notsus.py", '"Test/control.py"', '"Test/ask.py"', "", "input('continue')"])
 #
 #
 #

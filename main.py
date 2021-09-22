@@ -1,4 +1,9 @@
 osredo = 0
+
+f = open("startexec.py", "r")
+exec(f.read())
+
+
 i = input("Programname: ")+".py"
 
 if i == "Test.py":
